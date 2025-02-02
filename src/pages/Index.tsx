@@ -5,9 +5,16 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-2xl md:text-3xl text-center mb-16 mt-8 animate-fade-up">
-          Papo direto, sem site com apresentações bonitinhas.
-        </h1>
+        <div className="flex flex-col items-center mb-16">
+          <img
+            src="/lovable-uploads/a2079730-0d4c-402a-8b24-6a9190a380d0.png"
+            alt="Hypnos Logo"
+            className="w-24 h-24 mb-8 animate-fade-up"
+          />
+          <h1 className="text-2xl md:text-3xl text-center animate-fade-up">
+            Hypnos
+          </h1>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
           {/* Video Section */}
