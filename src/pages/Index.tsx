@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
-import { Video, BookOpen, Building, Hand } from "lucide-react";
-import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Video, BookOpen, Building } from "lucide-react";
 
 const Index = () => {
-  const [showFullImage, setShowFullImage] = useState(false);
-
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <div className="max-w-4xl mx-auto">
@@ -41,7 +37,7 @@ const Index = () => {
           <Link to="/company" className="content-section group">
             <Building className="w-16 h-16 md:w-24 md:h-24 icon-link text-white" />
             <p className="text-lg md:text-xl text-center">
-              Conheça aprofundo sobre nossa empresa e veja os resultados que fazemos!
+              Conheça a gente e os nossos resultados
             </p>
           </Link>
         </div>

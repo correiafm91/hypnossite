@@ -25,9 +25,6 @@ const Company = () => {
             alt="Hypnos Logo"
             className="w-32 h-32"
           />
-          <h1 className="text-3xl font-bold text-center">
-            Conheça a gente e os nossos resultados
-          </h1>
         </div>
 
         {/* Company Description */}
@@ -74,6 +71,9 @@ const Company = () => {
         {/* Results Section */}
         <div className="space-y-8 animate-fade-up">
           <h2 className="text-2xl font-bold text-center">Resultados surreais</h2>
+          <p className="text-center text-lg mb-8">
+            Apenas 3 textos renderam mais de 400 mil reais para esses 3 clientes!
+          </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
