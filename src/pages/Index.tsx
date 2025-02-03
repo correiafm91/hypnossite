@@ -34,7 +34,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg transform hover:translate-y-[-2px] transition-transform"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg"
         >
           Fechar negócio
         </Button>
@@ -58,7 +58,7 @@ const Index = () => {
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img
-            src="https://i.postimg.cc/mrqPMh5p/A-detailed-black-and-white-image-of-sales-performance-charts-within-a-smartphone-minimalist-grey-co.png"
+            src="https://i.postimg.cc/wMYcXwGr/Screenshot-20250202-124818.jpg"
             alt="Documento 3"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
@@ -86,7 +86,7 @@ const Index = () => {
             "Treinamentos"
           ].map((step, index) => (
             <div key={index} className="flex items-center space-x-4 bg-zinc-900 p-6 rounded-lg animate-fade-up">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="w-12 h-12 bg-[#ff8500] rounded-full flex items-center justify-center text-xl font-bold">
                 {index + 1}
               </div>
               <p className="text-lg">{step}</p>
@@ -96,7 +96,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg transform hover:translate-y-[-2px] transition-transform"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg"
         >
           AGORA ESTOU CONVENCIDO
         </Button>
@@ -111,13 +111,13 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Pagamento Único</h3>
-            <p className="text-4xl font-bold text-green-500 mb-8">R$ 2.250</p>
+            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 2.250</p>
             <p className="text-lg mb-4">Entrega completa dos textos</p>
           </div>
           
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Plano Mensal</h3>
-            <p className="text-4xl font-bold text-green-500 mb-8">R$ 1.125</p>
+            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 1.125</p>
             <p className="text-lg mb-4">Inclui acompanhamento e 5 consultorias mensais</p>
             <p className="text-sm text-gray-400">Este plano não é obrigatório</p>
           </div>
@@ -125,7 +125,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg transform hover:translate-y-[-2px] transition-transform"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg"
         >
           Fechar negócio
         </Button>
