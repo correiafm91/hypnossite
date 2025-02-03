@@ -34,7 +34,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block animate-pulse"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block"
         >
           Fechar negócio
         </Button>
@@ -47,14 +47,21 @@ const Index = () => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-8">
-          {[1, 2, 3].map((index) => (
-            <img
-              key={index}
-              src={`/lovable-uploads/doc${index}.png`}
-              alt={`Documento ${index}`}
-              className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-            />
-          ))}
+          <img
+            src="/lovable-uploads/doc1.png"
+            alt="Documento 1"
+            className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+          />
+          <img
+            src="/lovable-uploads/doc2.png"
+            alt="Documento 2"
+            className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+          />
+          <img
+            src="/lovable-uploads/doc3.png"
+            alt="Documento 3"
+            className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+          />
         </div>
         
         <p className="text-xl text-center max-w-3xl mx-auto mb-16">
@@ -75,7 +82,8 @@ const Index = () => {
             "Rascunhos de textos",
             "Finalização dos textos e revisão",
             "Aprovação do cliente",
-            "Entrega final do documento com os textos"
+            "Entrega final do documento com os textos",
+            "Treinamentos"
           ].map((step, index) => (
             <div key={index} className="flex items-center space-x-4 bg-zinc-900 p-6 rounded-lg animate-fade-up">
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-xl font-bold">
@@ -88,7 +96,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 animate-pulse"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16"
         >
           AGORA ESTOU CONVENCIDO
         </Button>
@@ -117,7 +125,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 animate-pulse"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16"
         >
           Fechar negócio
         </Button>
