@@ -34,7 +34,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg transform hover:translate-y-[-2px] transition-transform"
         >
           Fechar negócio
         </Button>
@@ -48,17 +48,17 @@ const Index = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-8">
           <img
-            src="/lovable-uploads/doc1.png"
+            src="https://i.postimg.cc/sfLVKtjq/Screenshot-20250202-124834.jpg"
             alt="Documento 1"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img
-            src="/lovable-uploads/doc2.png"
+            src="https://i.postimg.cc/tgD1g23b/Screenshot-20250202-124829.jpg"
             alt="Documento 2"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img
-            src="/lovable-uploads/doc3.png"
+            src="https://i.postimg.cc/mrqPMh5p/A-detailed-black-and-white-image-of-sales-performance-charts-within-a-smartphone-minimalist-grey-co.png"
             alt="Documento 3"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
@@ -96,7 +96,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg transform hover:translate-y-[-2px] transition-transform"
         >
           AGORA ESTOU CONVENCIDO
         </Button>
@@ -125,7 +125,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg transform hover:translate-y-[-2px] transition-transform"
         >
           Fechar negócio
         </Button>
