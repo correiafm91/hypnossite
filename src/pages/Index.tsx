@@ -78,7 +78,7 @@ const Index = () => {
           DA PESQUISA AOS LUCROS! COMO FUNCIONA A NOSSA ENTREGA
         </h2>
         
-        <div className="max-w-3xl mx-auto space-y-4">
+        <div className="max-w-3xl mx-auto">
           {[
             "A gente faz um estudo do seu produto ou serviço",
             "Pesquisa de mercado",
@@ -88,8 +88,13 @@ const Index = () => {
             "Entrega final do documento com os textos",
             "Treinamentos"
           ].map((step, index) => (
-            <div key={index} className="flex items-center space-x-4 bg-[#ff8500] bg-opacity-10 p-6 rounded-lg animate-fade-up border-l-4 border-[#ff8500]">
-              <div className="w-12 h-12 bg-[#ff8500] rounded-full flex items-center justify-center text-xl font-bold">
+            <div 
+              key={index} 
+              className={`flex items-center gap-4 bg-[#ff8500] bg-opacity-10 p-6 rounded-lg animate-fade-up border-l-4 border-[#ff8500] mb-4 ${
+                index % 2 === 0 ? 'ml-0 mr-[10%]' : 'ml-[10%] mr-0'
+              }`}
+            >
+              <div className="w-12 h-12 bg-[#ff8500] rounded-full flex items-center justify-center text-xl font-bold shrink-0">
                 {index + 1}
               </div>
               <p className="text-lg">{step}</p>
@@ -107,13 +112,13 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Pagamento Único</h3>
-            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 2.250</p>
+            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 1.350</p>
             <p className="text-lg mb-4">Entrega completa dos textos</p>
           </div>
           
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Plano Mensal</h3>
-            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 1.125</p>
+            <p className="text-4xl font-bold text-[#ff8500] mb-8">R$ 675</p>
             <p className="text-lg mb-4">Inclui acompanhamento e 5 consultorias mensais</p>
             <p className="text-sm text-gray-400">Este plano não é obrigatório</p>
           </div>
