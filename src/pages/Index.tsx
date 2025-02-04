@@ -27,6 +27,7 @@ const Index = () => {
             className="w-full h-full rounded-lg"
             src="https://www.youtube.com/embed/go0aOyHOvjI"
             title="YouTube video"
+            loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
@@ -50,16 +51,25 @@ const Index = () => {
           <img
             src="https://i.postimg.cc/sfLVKtjq/Screenshot-20250202-124834.jpg"
             alt="Documento 1"
+            width="400"
+            height="300"
+            loading="lazy"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img
             src="https://i.postimg.cc/tgD1g23b/Screenshot-20250202-124829.jpg"
             alt="Documento 2"
+            width="400"
+            height="300"
+            loading="lazy"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img
             src="https://i.postimg.cc/wMYcXwGr/Screenshot-20250202-124818.jpg"
             alt="Documento 3"
+            width="400"
+            height="300"
+            loading="lazy"
             className="w-full rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
         </div>
