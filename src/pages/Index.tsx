@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="py-16 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-12 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
+      <section className="py-12 px-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
           O SEGREDO QUE VOCÊ PROCURA ESTÁ AQUI!
         </h1>
         
@@ -32,19 +32,12 @@ const Index = () => {
             allowFullScreen
           />
         </div>
-
-        <Button 
-          onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg h-auto whitespace-normal"
-        >
-          Fechar negócio
-        </Button>
       </section>
 
       {/* Results Section */}
-      <section className="py-16 px-4 bg-zinc-900">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
-          AINDA NÃO ESTÁ CONVENCIDO? AINDA BEM, POR QUE QUERO TE MOSTRAR MAIS COISAS
+      <section className="py-8 px-4 bg-zinc-900">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
+          ANTES DE MOSTRAR O BOTÃO DE NEGÓCIO FECHADO, QUEREMOS TE MOSTRAR MAIS COISAS
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-8">
@@ -74,18 +67,18 @@ const Index = () => {
           />
         </div>
         
-        <p className="text-xl text-center max-w-3xl mx-auto mb-16">
+        <p className="text-xl text-center max-w-3xl mx-auto mb-8">
           Com esses 3 textos que criamos, fazemos mais de 400 mil reais para o bolso desses clientes
         </p>
       </section>
 
       {/* Process Section */}
-      <section className="py-16 px-4">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
+      <section className="py-8 px-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
           DA PESQUISA AOS LUCROS! COMO FUNCIONA A NOSSA ENTREGA
         </h2>
         
-        <div className="max-w-3xl mx-auto space-y-8">
+        <div className="max-w-3xl mx-auto space-y-4">
           {[
             "A gente faz um estudo do seu produto ou serviço",
             "Pesquisa de mercado",
@@ -95,7 +88,7 @@ const Index = () => {
             "Entrega final do documento com os textos",
             "Treinamentos"
           ].map((step, index) => (
-            <div key={index} className="flex items-center space-x-4 bg-zinc-900 p-6 rounded-lg animate-fade-up">
+            <div key={index} className="flex items-center space-x-4 bg-[#ff8500] bg-opacity-10 p-6 rounded-lg animate-fade-up border-l-4 border-[#ff8500]">
               <div className="w-12 h-12 bg-[#ff8500] rounded-full flex items-center justify-center text-xl font-bold">
                 {index + 1}
               </div>
@@ -103,18 +96,11 @@ const Index = () => {
             </div>
           ))}
         </div>
-
-        <Button 
-          onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg h-auto whitespace-normal"
-        >
-          AGORA ESTOU CONVENCIDO
-        </Button>
       </section>
 
       {/* Pricing Section */}
-      <section className="py-16 px-4 bg-zinc-900">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
+      <section className="py-8 px-4 bg-zinc-900">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
           O QUE EU VOU COBRAR DE VOCÊ?
         </h2>
         
@@ -135,7 +121,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg h-auto whitespace-normal"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-8 shadow-lg h-auto whitespace-normal"
         >
           Fechar negócio
         </Button>
