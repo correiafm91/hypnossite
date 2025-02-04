@@ -35,7 +35,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block shadow-lg h-auto whitespace-normal"
         >
           Fechar negócio
         </Button>
@@ -106,7 +106,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg h-auto whitespace-normal"
         >
           AGORA ESTOU CONVENCIDO
         </Button>
@@ -135,7 +135,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg"
+          className="bg-[#ff8500] hover:bg-[#ff8500]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-16 shadow-lg h-auto whitespace-normal"
         >
           Fechar negócio
         </Button>
