@@ -34,6 +34,44 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Company Section */}
+      <section className="py-12 px-4 bg-[#232323]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="/og-image.png"
+              alt="Hypnos Logo"
+              className="w-64 h-64 object-contain"
+            />
+          </div>
+          <div className="space-y-6 text-left">
+            <h2 className="text-3xl md:text-4xl font-bebas leading-tight">
+              HYPNOS – A Copywriting que Transforma Palavras em Dinheiro
+            </h2>
+            <div className="space-y-4 font-poppins text-gray-300">
+              <p>
+                Toda compra começa na mente. Antes do clique, do pedido ou do pagamento, existe um pensamento, uma emoção, um impulso. A Hypnos domina essa arte.
+              </p>
+              <p>
+                Não escrevemos textos bonitos. Criamos mensagens hipnóticas, que capturam atenção, quebram objeções e conduzem o público até a única conclusão possível: comprar de você.
+              </p>
+              <p>
+                Nosso diferencial? Não vendemos textos soltos. Entregamos um sistema completo de persuasão.
+              </p>
+              <p>
+                No nosso pacote estratégico, você recebe landing pages que convertem, anúncios que vendem, VSLs que prendem atenção, e-mails que engajam e até a bio perfeita para magnetizar seguidores certos. Mas não paramos por aí. Ensinamos você a usar cada peça no momento certo, garantindo que seu negócio continue escalando mesmo depois da entrega.
+              </p>
+              <p>
+                E enquanto você aplica, nós monitoramos. Ajustamos, otimizamos e refinamos até sua copy atingir o nível máximo de conversão.
+              </p>
+              <p>
+                Se sua comunicação não está imprimindo dinheiro, ela está te custando caro. A Hypnos resolve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Results Section */}
       <section className="py-8 px-4 bg-zinc-900">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
@@ -88,8 +126,8 @@ const Index = () => {
             "Entrega final do documento com os textos",
             "Treinamentos"
           ].map((step, index) => (
-            <div key={index} className="flex items-center space-x-4 bg-[#ff6600] bg-opacity-10 p-6 rounded-lg animate-fade-up border-l-4 border-[#ff6600]">
-              <div className="w-12 h-12 bg-[#ff6600] rounded-full flex items-center justify-center text-xl font-bold">
+            <div key={index} className="flex items-center space-x-4 bg-[#FF3F00] bg-opacity-10 p-6 rounded-lg animate-fade-up border-l-4 border-[#FF3F00]">
+              <div className="w-12 h-12 bg-[#FF3F00] rounded-full flex items-center justify-center text-xl font-bold">
                 {index + 1}
               </div>
               <p className="text-lg">{step}</p>
@@ -107,13 +145,13 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Pagamento Único</h3>
-            <p className="text-4xl font-bold text-[#ff6600] mb-8">R$ 1.350</p>
+            <p className="text-4xl font-bold text-[#FF3F00] mb-8">R$ 1.350</p>
             <p className="text-lg mb-4">Entrega completa dos textos</p>
           </div>
           
           <div className="bg-black p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">Plano Mensal</h3>
-            <p className="text-4xl font-bold text-[#ff6600] mb-8">R$ 675</p>
+            <p className="text-4xl font-bold text-[#FF3F00] mb-8">R$ 675</p>
             <p className="text-lg mb-4">Inclui acompanhamento e 5 consultorias mensais</p>
             <p className="text-sm text-gray-400">Este plano não é obrigatório</p>
           </div>
@@ -121,7 +159,7 @@ const Index = () => {
 
         <Button 
           onClick={handleShowForm}
-          className="bg-[#ff6600] hover:bg-[#ff6600]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-8 shadow-lg h-auto whitespace-normal"
+          className="bg-[#FF3F00] hover:bg-[#FF3F00]/90 text-white font-bold py-4 px-8 rounded-lg text-xl mx-auto block mt-8 shadow-lg h-auto whitespace-normal"
         >
           Fechar negócio
         </Button>
