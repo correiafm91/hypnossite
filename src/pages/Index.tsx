@@ -34,6 +34,44 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Company Section */}
+      <section className="py-12 px-4 bg-[#232323]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="/og-image.png"
+              alt="Hypnos Logo"
+              className="w-64 h-64 object-contain"
+            />
+          </div>
+          <div className="space-y-6 text-left">
+            <h2 className="text-3xl md:text-4xl font-bebas leading-tight">
+              HYPNOS – A Copywriting que Transforma Palavras em Dinheiro
+            </h2>
+            <div className="space-y-4 font-poppins text-gray-300">
+              <p>
+                Toda compra começa na mente. Antes do clique, do pedido ou do pagamento, existe um pensamento, uma emoção, um impulso. A Hypnos domina essa arte.
+              </p>
+              <p>
+                Não escrevemos textos bonitos. Criamos mensagens hipnóticas, que capturam atenção, quebram objeções e conduzem o público até a única conclusão possível: comprar de você.
+              </p>
+              <p>
+                Nosso diferencial? Não vendemos textos soltos. Entregamos um sistema completo de persuasão.
+              </p>
+              <p>
+                No nosso pacote estratégico, você recebe landing pages que convertem, anúncios que vendem, VSLs que prendem atenção, e-mails que engajam e até a bio perfeita para magnetizar seguidores certos. Mas não paramos por aí. Ensinamos você a usar cada peça no momento certo, garantindo que seu negócio continue escalando mesmo depois da entrega.
+              </p>
+              <p>
+                E enquanto você aplica, nós monitoramos. Ajustamos, otimizamos e refinamos até sua copy atingir o nível máximo de conversão.
+              </p>
+              <p>
+                Se sua comunicação não está imprimindo dinheiro, ela está te custando caro. A Hypnos resolve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Results Section */}
       <section className="py-8 px-4 bg-zinc-900">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-white [text-shadow:_0_1px_0_rgb(255_255_255_/_40%)] animate-fade-up">
@@ -70,44 +108,6 @@ const Index = () => {
         <p className="text-xl text-center max-w-3xl mx-auto mb-8">
           Com esses 3 textos que criamos, fazemos mais de 400 mil reais para o bolso desses clientes
         </p>
-      </section>
-
-      {/* Company Section */}
-      <section className="py-12 px-4 bg-[#232323]">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-          <div className="flex justify-center md:justify-end">
-            <img
-              src="https://i.postimg.cc/MKd9d6FV/Captura-de-tela-2024-12-09-120951-3-removebg-preview.png"
-              alt="Hypnos Logo"
-              className="w-64 h-64 object-contain"
-            />
-          </div>
-          <div className="space-y-6 text-left">
-            <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-              HYPNOS – A Copywriting que Transforma Palavras em Dinheiro
-            </h2>
-            <div className="space-y-4 text-gray-300">
-              <p>
-                Toda compra começa na mente. Antes do clique, do pedido ou do pagamento, existe um pensamento, uma emoção, um impulso. A Hypnos domina essa arte.
-              </p>
-              <p>
-                Não escrevemos textos bonitos. Criamos mensagens hipnóticas, que capturam atenção, quebram objeções e conduzem o público até a única conclusão possível: comprar de você.
-              </p>
-              <p>
-                Nosso diferencial? Não vendemos textos soltos. Entregamos um sistema completo de persuasão.
-              </p>
-              <p>
-                No nosso pacote estratégico, você recebe landing pages que convertem, anúncios que vendem, VSLs que prendem atenção, e-mails que engajam e até a bio perfeita para magnetizar seguidores certos. Mas não paramos por aí. Ensinamos você a usar cada peça no momento certo, garantindo que seu negócio continue escalando mesmo depois da entrega.
-              </p>
-              <p>
-                E enquanto você aplica, nós monitoramos. Ajustamos, otimizamos e refinamos até sua copy atingir o nível máximo de conversão.
-              </p>
-              <p>
-                Se sua comunicação não está imprimindo dinheiro, ela está te custando caro. A Hypnos resolve.
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Process Section */}
